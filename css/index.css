@@ -318,9 +318,9 @@ address h2 {
      
   }
   .nav-container a {
-    padding-left: 170px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-left: 190px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .nav-container a:hover {
     text-decoration: none;
@@ -328,13 +328,16 @@ address h2 {
   }
   .logo {
     width: 100%;
+    margin-left: 33px;
   }
   .round {
     width: 0%;
   }
   .head-container{
+    padding-top: 1px;
     margin-left: 360px;
     justify-content: center;
+    padding-bottom: 1px;
   }
   .head-content h1 {
     font-size: 80px;
@@ -343,6 +346,7 @@ address h2 {
     margin-left: 85px;
   }
   hr {
+    padding-top: 1px;
     width: 416px;
     margin-left: 30px;
   }
@@ -351,10 +355,18 @@ address h2 {
     margin-left: 5px;
     margin-right: 5px;
   }
+  .top-content {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
   .bottom-container {
     flex-direction: column;
     margin-left: 5px;
     margin-right: 5px;
+  }
+  .bottom-content {
+    padding-bottom: 30px;
+    padding-top: 30px;
   }
   address {
     margin-left: 30px;
