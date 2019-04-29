@@ -216,7 +216,7 @@ button {
   margin-top: 40px;
 }
 .head-container button:hover {
-  background: greenyellow;
+  background: lightgrey;
   transition-duration: 0.5s;
 }
 .head-container h1 {
@@ -308,4 +308,61 @@ address {
 }
 address h2 {
   font-size: 24px;
+}
+
+@media(max-width: 500px){
+  .nav-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+     
+  }
+  .nav-container a {
+    padding-left: 170px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .nav-container a:hover {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .logo {
+    width: 100%;
+  }
+  .round {
+    width: 0%;
+  }
+  .head-container{
+    margin-left: 360px;
+    justify-content: center;
+  }
+  .head-content h1 {
+    font-size: 80px;
+  }
+  .head-content button { 
+    margin-left: 85px;
+  }
+  hr {
+    width: 416px;
+    margin-left: 30px;
+  }
+  .top-container {
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .bottom-container {
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  address {
+    margin-left: 30px;
+  }
+  .middle-img {
+  width: 430px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 5px;
+  }
 }
