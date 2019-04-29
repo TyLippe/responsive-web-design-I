@@ -194,35 +194,37 @@ button {
 }*/
 .head-container {
     display: flex;
-    flex-basis: 44%;
-    justify-content: space-between;
-    margin-left: 120px;
+    margin-left: 380px;
     margin-right: 140px;
     padding-bottom: 80px;
     padding-top: 80px;
 }
-button {
+.head-content {
+  margin-right: 140px;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.head-container button {
   background: white;
-  width: 10%;
-  height: 5%;
+  width: 160px;
+  height: 36px;
   font-size: 20px;
   border-radius: 10px;
-  margin-left: 360px;
-  
+  margin-left: 140px;
+  margin-top: 40px;
 }
-button:hover {
+.head-container button:hover {
   background: greenyellow;
   transition-duration: 0.5s;
 }
 .head-container h1 {
   font-size: 110px;
   text-align: center;
-  padding-top: 120px;
-  padding-left: 300px;
 }
 .round {
   width: 600px;
   height: 600px;
+  margin-left: 100px
 }
 .middle-img {
   width: 100%;
