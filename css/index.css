@@ -150,23 +150,21 @@ h5 {
 }
 
 /* Your code starts here! */
-nav {
-  display: inline;
+.nav-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 130px;
+  margin-right: 140px;
+  align-items: center;
 }
-nav a {
+.nav-container a {
   display: inline-block;
   opacity: 0.5;
   text-align: left;
   color: grey;
   text-decoration: none;
-  font-size: 18px;
-  width: 14%;
-  padding: 10px;
-}
-.logo {
-  vertical-align: bottom;
-  width: 14%;
-  display: inline-block;
+  font-size: 22px;
+  padding-right: 160px;
 }
 /* I will fix this
 h1 {
@@ -197,7 +195,7 @@ button {
     margin-left: 380px;
     margin-right: 140px;
     padding-bottom: 80px;
-    padding-top: 80px;
+    padding-top: 140px;
 }
 .head-content {
   margin-right: 140px;
