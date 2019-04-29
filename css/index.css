@@ -166,6 +166,10 @@ h5 {
   font-size: 22px;
   padding-right: 160px;
 }
+.nav-container a:hover {
+  text-decoration: grey underline;
+  transition-duration: 0.5s;
+}
 /* I will fix this
 h1 {
   padding-bottom: 180px;
