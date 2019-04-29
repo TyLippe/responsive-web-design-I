@@ -168,6 +168,7 @@ nav a {
   width: 14%;
   display: inline-block;
 }
+/* I will fix this
 h1 {
   padding-bottom: 180px;
   font-size: 102px;
@@ -183,34 +184,60 @@ h1 {
   margin-bottom: 10px;
   display: inline-block;
 }
-footer {
-  text-align: center;
-}
+
 button {
   display: inline-block;
   background: white;
   width: 150px;
   height: 36px;
   margin-left: 410px;
+}*/
+.head-container {
+    display: flex;
+    flex-basis: 44%;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 140px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+button {
+  background: white;
+  width: 10%;
+  height: 5%;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 360px;
+  
+}
+button:hover {
+  background: greenyellow;
+  transition-duration: 0.5s;
+}
+.head-container h1 {
+  font-size: 110px;
+  text-align: center;
+  padding-top: 120px;
+  padding-left: 300px;
+}
+.round {
+  width: 600px;
+  height: 600px;
 }
 .middle-img {
-  display: block;
-  align: center;
   width: 100%;
-  height: 60%;
-}
-.line {
-  display: block;
-  background: black;
+  padding-left: 130px;
+  padding-right: 140px;
 }
 hr {
   display: block;
   height: 1px;
   border: 0;
   border-top: 2px solid black;
-  margin: 1em 0;
-  padding: 0;
+  margin-left: 120px;
+  margin-right: 140px;
 }
+/* I was killing it 
 .feat {
   padding: 36px 24px 36px 24px;
   font-size: 24px;
@@ -222,6 +249,17 @@ hr {
   font-size: 24px;
   width: 49%;
   display: inline-block;
+}*/
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 140px;
+}
+.top-content {
+    flex-basis: 48%;
+    font-size: 24px;
+    padding: 60px 24px 60px 24px;
 }
 /* What was I thinking!
 .service {
@@ -246,20 +284,23 @@ hr {
 .bottom-container {
     display: flex;
     justify-content: space-between;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 120px;
+    margin-right: 140px;
 }
 .bottom-content {
     flex-basis: 33%;
     font-size: 24px;
-    padding: 36px 24px 36px 24px;
+    padding: 60px 24px 60px 24px;
 }
-
 footer {
-  padding-top: 48px; 
+  padding: 24px;
+  text-align: center; 
 }
 address {
   padding-top: 48px;
+  padding-bottom: 48px;
+  margin-left: 120px;
+  font-size: 20px;
 }
 address h2 {
   font-size: 24px;
